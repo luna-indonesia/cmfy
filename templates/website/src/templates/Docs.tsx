@@ -7,7 +7,7 @@ import routes from "~solid-pages";
 
 export default () => {
   const content = getMarkdown(routes, useLocation().pathname, markdownAtom);
-  console.log(content.title);
+
   return (
     <div>
       <Nav />

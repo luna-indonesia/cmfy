@@ -1,0 +1,4 @@
+template: default
+nav: true
+content:
+  - name: blue
