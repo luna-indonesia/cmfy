@@ -1,0 +1,9 @@
+template: default
+nav: true
+content:
+  - name: header
+    class: header
+  - name: main
+    class: content
+  - name: footer
+    class: footer

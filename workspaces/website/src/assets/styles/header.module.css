@@ -1,0 +1,58 @@
+.blur {
+  background: 
+    linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.5)),
+    url('https://source.unsplash.com/collection/99956424/1024*768') no-repeat top center,
+    #808080;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 15rem;
+  background-color: rgba(255,255,255,0.4);
+  padding: .7rem;
+  margin: 1.2rem 0 .7rem;
+  box-shadow: 3px 3px 6px rgba(23, 8, 69, 0.4);
+  z-index: 9999;
+}
+
+.titleBar {
+  background: rgba(255,255,255,0.6);
+  width: 100%;
+  margin-top: .5rem;
+  border-top: 1px solid rgba(23, 8, 69, 0.2);
+  border-bottom: 1px solid rgba(23, 8, 69, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 2.4rem;
+  color: #505050;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.title :global(span) {
+  color:#707070;
+  margin-left: .4rem;
+  padding-top: .1rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.version {
+  font-size: .8rem;
+  font-weight: 600;
+  padding-bottom: .5rem;
+}
+
+.version :global(span) {
+  color: #ee3ac1;
+  margin-left: .4rem;
+}

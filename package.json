@@ -1,0 +1,19 @@
+{
+  "name": "cmfy-monorepo",
+  "version": "1.0.0",
+  "description": "CMFY Monorepo",
+  "main": "index.js",
+  "workspaces": [
+    "./workspaces/*", 
+    "./templates/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web:dev": "npm run dev -w @cmfy/website"
+  },
+  "keywords": [
+    "CMFY"
+  ],
+  "author": "Muhammad Tsany Qudsi",
+  "license": "MIT"
+}

@@ -1,0 +1,47 @@
+.container {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+  align-items: center;
+  color:#454545;
+  border-bottom:rgba(23, 8, 69, 0.1) solid 4px;;
+}
+
+.container :global(img){
+  height:1.4rem;
+}
+
+.container :global(span){
+  margin: 0 .4rem;
+  color: #d16073;
+  text-transform: uppercase;
+  font-weight:600;
+}
+
+.container :global(code){
+  border-radius: .5rem;
+  padding: .35rem .5rem;
+  background-color: rgba(209, 96, 115, 0.822);
+  margin: 0 .3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ps{
+  font-size: 0.8rem;
+}
+
+.ps :global(code){
+  font-size: 0.6rem;
+}
+
+.ps :global(b){
+  margin-right:0.7rem;
+}
+
+.welcome{
+  font-size: 2.3rem;
+  margin-bottom: 0;
+}

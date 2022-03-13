@@ -1,0 +1,11 @@
+logo:
+  name: cmfy.svg
+  alt: CMFY Logo
+list:
+  - name: Home
+    img: 
+      name: cmfy.svg
+      alt: CMFY Logo
+  - name: Articles
+    url: articles
+class: nav
