@@ -1,5 +1,17 @@
 .container {
   display:flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back {
+  border-radius: .5rem;
+  padding: .35rem .5rem;
+  background-color: rgba(209, 96, 115, 0.822);
+  margin: 0 .3rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
 }

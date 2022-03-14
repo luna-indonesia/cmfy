@@ -1,5 +1,5 @@
 {
-  "name": "@cmfy/website",
+  "name": "cmfy-template-solid",
   "version": "0.0.1",
   "description": "Solid JS Starter Kit using Vite.",
   "scripts": {

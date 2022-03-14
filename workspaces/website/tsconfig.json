@@ -35,12 +35,6 @@
             "@config": [
                 "./src/config"
             ],
-            "@articles": [
-                "./src/articles"
-            ],
-            "@articles/*": [
-                "./src/articles/*"
-            ],
             "@assets/*": [
                 "./src/assets/*"
             ],
@@ -73,6 +67,9 @@
             ],
             "@guides": [
                 "./src/guides"
+            ],
+            "@hhhh": [
+                "./src/pages/hhhh"
             ]
         }
     }

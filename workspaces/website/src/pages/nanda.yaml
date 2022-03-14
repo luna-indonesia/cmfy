@@ -1,4 +1,0 @@
-template: default
-content:
-  - name: footer
-    class: footer
