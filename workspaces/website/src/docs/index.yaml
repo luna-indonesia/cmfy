@@ -1,0 +1,7 @@
+template: docs-index
+nav: true
+content:
+  - name: header
+    class: header
+  - name: markdown-list
+    class: footer

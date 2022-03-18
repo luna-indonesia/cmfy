@@ -1,12 +1,12 @@
 import { atom } from "nanostores";
 
 export const pagesAtom = atom<{ [key: string]: any }>(
-  import.meta.globEager("../pages/**/*.yaml")
+  import.meta.globEager("../**/*.yaml")
 );
 
 export const imagesAtom = atom<{ [key: string]: any }>(
   import.meta.globEager(
-    "../assets/images/**/*.(svg|SVG|jpg|jpeg|JPG|JPEG|PNG|png|gif|GIF)"
+    "../assets/images/**/*.(svg|SVG|jpg|JPG|jpeg|JPEG|PNG|png|gif|GIF)"
   )
 );
 

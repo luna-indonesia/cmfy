@@ -2,7 +2,8 @@
 
 :root{
   --body-background: linear-gradient(rgba(247, 180, 211, 0.267), rgba(255, 255, 255, 0.5)) no-repeat;
-  --a-default: rgba(209, 96, 115,1);
+  --primary: rgba(209, 96, 115,1);
+  --a-default: var(--primary);
   --a-hover: rgba(209, 96, 115,1);
 }
 

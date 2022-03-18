@@ -10,7 +10,11 @@ const data = (value: string, path?: string) => {
       mime.lookup(`.${value}`) === "text/mdx"
     )
       return path ?? "article";
-    else return yaml.load(fs.readFileSync(`.${value}`, "utf8")).template;
+    else {
+      if (yaml.load(fs.readFileSync(`.${value}`, "utf8")))
+        return yaml.load(fs.readFileSync(`.${value}`, "utf8")).template;
+      else return "none";
+    }
   };
   if (
     fs.existsSync(

@@ -12,7 +12,6 @@ export const getMarkdown = (
     const path = Object.keys(markdowns.value).find((key) =>
       key.includes(config.config)
     );
-    console.log(markdowns.value[path]);
     return markdowns.value[path];
   } else {
     const temp = routes.map((value) => {

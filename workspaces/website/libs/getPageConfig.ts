@@ -9,13 +9,19 @@ export const getPageConfig = (
     const data = _.find(routes, { config: `/pages${pathname}.yaml` });
     if (data) return data;
     else
-      return _.find(routes, {
-        config:
-          pathname.length > 1
-            ? `/pages${pathname}/index.yaml`
-            : `/pages/index.yaml`,
-      });
+      return (
+        _.find(routes, {
+          config:
+            pathname.length > 1
+              ? `/pages${pathname}/index.yaml`
+              : `/pages/index.yaml`,
+        }) ??
+        _.find(routes, {
+          config: `${pathname}index.yaml`,
+        })
+      );
   };
+
   if (config()) {
     const path = Object.keys(pages.value).find((key) =>
       key.includes(config().config)
