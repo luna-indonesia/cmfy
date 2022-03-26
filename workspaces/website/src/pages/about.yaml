@@ -1,5 +1,5 @@
 template: default
 nav: true
-content:
-  - name: blue
+component:
+  - name: header
     

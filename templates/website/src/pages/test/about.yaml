@@ -1,4 +1,4 @@
 template: default
 nav: true
-content:
+component:
   - name: header

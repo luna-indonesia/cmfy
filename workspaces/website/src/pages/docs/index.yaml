@@ -1,6 +1,7 @@
 template: docs-index
 nav: true
-content:
+component:
   - name: header
     class: header
   - name: markdown-list
+    class: markdown

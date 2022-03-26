@@ -1,0 +1,40 @@
+{
+  "name": "@cmfy/libs",
+  "version": "0.1.0",
+  "description": "Library for CMFY",
+  "author": "Muhammad Tsany Qudsi",
+  "license": "ISC",
+  "keywords": [
+    "CMFY"
+  ],
+  "files": [
+    "dist"
+  ],
+  "types": "./src/index.d.ts",
+  "main": "./dist/parser.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node dist/parser.js --file ../../VivelDialog.xlsx",
+    "trial": "npm run build && npm start"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/node-xlsx": "^0.15.2",
+    "@types/yargs": "^17.0.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "plur": "^4.0.0",
+    "xlsx": "^0.17.2",
+    "yargs": "^17.1.1",
+    "inherits": "^2.0.3"
+  }
+}

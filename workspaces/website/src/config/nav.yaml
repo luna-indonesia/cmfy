@@ -3,6 +3,8 @@ logo:
 list:
   - name: Guides
     url: /guides
+  - name: kampus
+    url: /unugha
   - name: Docs
     url: /docs
 class: nav

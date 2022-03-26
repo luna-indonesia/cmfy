@@ -1,4 +1,4 @@
 template: default
-content:
+component:
   - name: footer
     class: footer

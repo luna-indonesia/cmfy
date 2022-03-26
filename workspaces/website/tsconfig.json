@@ -12,65 +12,6 @@
             "vite/client",
             "@modyfi/vite-plugin-yaml/modules",
             "vite-plugin-pages/client-solid"
-        ],
-        "paths": {
-            "@components": [
-                "./src/components"
-            ],
-            "@pages": [
-                "./src/pages"
-            ],
-            "@templates": [
-                "./src/templates"
-            ],
-            "@": [
-                "./src"
-            ],
-            "@assets": [
-                "./src/assets"
-            ],
-            "@stores": [
-                "./src/stores"
-            ],
-            "@config": [
-                "./src/config"
-            ],
-            "@assets/*": [
-                "./src/assets/*"
-            ],
-            "@components/*": [
-                "./src/components/*"
-            ],
-            "@config/*": [
-                "./src/config/*"
-            ],
-            "@pages/*": [
-                "./src/pages/*"
-            ],
-            "@stores/*": [
-                "./src/stores/*"
-            ],
-            "@templates/*": [
-                "./src/templates/*"
-            ],
-            "@/*": [
-                "./src/*"
-            ],
-            "@docs/*": [
-                "./src/docs/*"
-            ],
-            "@docs": [
-                "./src/docs"
-            ],
-            "@guides/*": [
-                "./src/guides/*"
-            ],
-            "@guides": [
-                "./src/guides"
-            ],
-            "@hhhh": [
-                "./src/pages/hhhh"
-            ]
-        }
+        ]
     }
 }

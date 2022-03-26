@@ -6,13 +6,13 @@ import Nav from "@components/Nav";
 import routes from "~solid-pages";
 
 export default () => {
-  const content = getMarkdown(routes, useLocation().pathname, markdownAtom);
+  const component = getMarkdown(routes, useLocation().pathname, markdownAtom);
 
   return (
     <div>
       <Nav />
       <main>
-        <Dynamic component={content.default} />
+        <Dynamic component={component.default} />
       </main>
     </div>
   );

@@ -9,7 +9,7 @@ import { Dynamic } from "solid-js/web";
 
 export default () => {
   const config = getPageConfig(routes, useLocation().pathname, pagesAtom);
-  const components = getComponents(config.content, componentsAtom);
+  const components = getComponents(config.component, componentsAtom);
 
   return (
     <div>

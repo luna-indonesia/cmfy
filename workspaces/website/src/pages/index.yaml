@@ -1,6 +1,6 @@
 template: default
 nav: true
-content:
+component:
   - name: header
     class: header
   - name: main

@@ -1,9 +1,9 @@
 template: default
 nav: true
-content:
+component:
   - name: header
     class: header
   - name: main
-    class: content
+    class: component
   - name: footer
     class: footer
