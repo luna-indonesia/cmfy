@@ -14,7 +14,6 @@
   "main": "./dist/parser.js",
   "scripts": {
     "build": "rollup -c",
-    "start": "node dist/parser.js --file ../../VivelDialog.xlsx",
     "trial": "npm run build && npm start"
   },
   "devDependencies": {
